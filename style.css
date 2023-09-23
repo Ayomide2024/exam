@@ -1,0 +1,56 @@
+
+li a{
+    font-size: 12px !important;
+    text-transform: uppercase !important;
+}
+li a:hover{
+    color: orangered !important;
+}
+.hero{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(people-1979261_1920.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+}
+.content h1{
+    color: white !important;
+    text-transform: uppercase;
+}
+.content p{
+    color: white !important;
+    text-transform: uppercase;
+}
+.btn{
+border: 2px solid orangered !important;
+color: white !important;
+background-color: orangered !important;
+}
+.btn:hover{
+    background-color: transparent !important;
+}
+.card{
+    padding: 20px;
+}
+i{
+    font-size: 30px;
+}
+.counter-app{
+    background-image:linear-gradient(rgba(0, 0, 50, 0.819),rgba(0,0,50,0.819)),url("people-1979261_1920.jpg");
+    min-height: 50vh;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+}
+.gallery{
+   background-image: linear-gradient(rgba(0,0,50,0.819),rgba(0,0,50,0.819)),url(people-1979261_1920.jpg); 
+   background-position:center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   min-height: 30;
+   align-items: center;
+}
